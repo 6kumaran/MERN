@@ -5,7 +5,6 @@ import clothRoute from "./route/cloth.route.js"
 import cors from 'cors'
 import userRoute from "./route/user.route.js"
 import path from "path"
-import App from './Frontend/src/App.jsx'
 const app = express()
 app.use(cors())
 
