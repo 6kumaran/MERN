@@ -4,7 +4,7 @@ module.exports = {
   // other configurations...
   resolve: {
     fallback: {
-      "path": require.resolve("path-browserify"),
+      "path": false,
       // Add other Node.js core modules here if needed
     },
   },
